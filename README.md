@@ -3,7 +3,7 @@
 > A JSON based HTTP server, Built with TCP/IP Sockets in Java.
 
 So the general idea for this was mimmicking our traditional http transactions by implementing a web server using TCP/IP sockets.    
-There will be our TinyHTTPServer project which will handle our request which is basically a JSON payload, And we will make request through another project which is Client, that will help by sending predefined commands for traditional http methods ex: GET/POST/PUT/DELETE and the command will generate a Json payload to request our server.
+There will be our TinyHTTPServer project which will handle our request which is basically a JSON payload, And we will make request through another project which is Client, that will help by sending predefined commands for traditional http methods ex: GET/POST/PUT/DELETE and the command will generate a Json payload to request our server. It also handles concurrent requests using threads.
 
 
 ## Usage
