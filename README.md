@@ -67,6 +67,6 @@ Response
 ```
 
 
-![](https://ibb.co/xG0bxMg)
+![Alt text](sample.png?raw=true "Sample")
 
 
