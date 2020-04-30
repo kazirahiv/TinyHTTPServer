@@ -1,7 +1,5 @@
 # Tiny HTTP Server
 
-
-# Product Name
 > A JSON based HTTP server, Built with TCP/IP Sockets in Java.
 
 So the general idea for this was mimmicking our traditional http transactions by implementing a web server using TCP/IP sockets.    
@@ -25,7 +23,7 @@ We will be using `Intellij Idea Community` IDE  to open/build and run these proj
 |   disconnect     	|                 	|                                                    Disconnects from the server                                                    	|             disconnect            	|
 
 
-# Request/Response Payload Example
+## Request/Response Payload Example
 
 ```
 Request 
@@ -66,7 +64,8 @@ Response
 
 ```
 
+## Usage Sample
 
-![](https://ibb.co/xG0bxMg)
+![Alt text](sample.png?raw=true "Sample")
 
 
