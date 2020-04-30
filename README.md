@@ -22,4 +22,48 @@ We will be using `Intellij Idea Community` IDE  to open/build and run these proj
 |      get         	|      target     	|                                  retrieve the content of the specified web page from the server                                  	|          get /index.html          	|
 |      put         	|  source  target 	| upload the content of the specified <source> web page on the client file system to the specified <target> web page on the server 	| put test.html /finance/index.html 	|
 |     delete       	|      target     	|                          delete the specified web page from the server. <target> can be an empty folder                          	|     delete /finance/test.html     	|
-|   disconnect     	|                 	|                                                    Disconnect from the server                                                    	|             disconnect            	|
+|   disconnect     	|                 	|                                                    Disconnects from the server                                                    	|             disconnect            	|
+
+
+# Request Payload Example
+
+```
+Request 
+-------------
+{
+  "message":"request",
+  "type":"GET" ,
+  "target":"relative path to the web page"
+}
+
+{
+  "message":"request",
+  "type":"PUT" ,
+  "target":"relative path to the web page",
+  "content":"web page content in utf-8 format"
+}
+
+{
+  "message":"request",
+  "type":"DELETE" ,
+  "target":"/index.hmtl"
+}
+
+{
+  "message":"request",
+  "type":"DISCONNECT"
+}
+
+
+Response
+-------------
+{
+"message":"response",
+"statuscode":"a valid JSON number data type" ,
+"content":"a valid JSON string data type"
+}
+
+
+```
+
+
