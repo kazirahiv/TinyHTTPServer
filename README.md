@@ -25,7 +25,7 @@ We will be using `Intellij Idea Community` IDE  to open/build and run these proj
 |   disconnect     	|                 	|                                                    Disconnects from the server                                                    	|             disconnect            	|
 
 
-# Request Payload Example
+# Request/Response Payload Example
 
 ```
 Request 
@@ -65,5 +65,8 @@ Response
 
 
 ```
+
+
+![](https://ibb.co/xG0bxMg)
 
 
